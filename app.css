@@ -14,7 +14,6 @@
     --color-dark:#212121;
     --color-border:#7e686895;
     --color-bg:#171717;
-
 }
 body{
     background: var(--color-bg);
@@ -141,8 +140,6 @@ header{
 
     
 }
-
-
 .header-container{
     display: grid;
     grid-template-columns: 548% 120%;
@@ -205,9 +202,6 @@ margin: 280px 18%;
 grid-template-columns: repeat(4,1fr);
 justify-content: center;
 align-items: center;
-
-
-
 }
 .about-article{
     display: flex;
@@ -250,8 +244,6 @@ align-items: center;
 .services-article p{
     font-family:'Times New Roman', Times, serif;
 }
-
-
 #skills{
     padding-top: -1px;
     
@@ -278,8 +270,7 @@ align-items: center;
     border-bottom: 4px solid transparent;
 }
 .skill-article:hover{
-    border-color: var(--color-primary);
-    
+    border-color: var(--color-primary); 
 }
 
 #Blog .row{
@@ -325,8 +316,6 @@ align-items: center;
     background-color: #212121;
     border-radius: 19px;
 }
-
-
 #Contact{
     padding-top: 120px;
 }
